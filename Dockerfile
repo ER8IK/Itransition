@@ -7,6 +7,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY lcm_service.py .
 
-EXPOSE 5000
+EXPOSE 10000
 
 CMD ["python", "lcm_service.py"]
